@@ -60,7 +60,7 @@ export function Toolbar({ editor, onSave }: IProps) {
         <Button startIcon={<SettingsIcon />} onClick={openOptions} sx={{ mr: 1 }}>
           Options
         </Button>
-        <Button onClick={beautify}>Beautify</Button>
+        <Button onClick={beautify}>Beautify (Shift + Alt + f)</Button>
         <Button color={isUpdatingRAM ? "secondary" : "primary"} sx={{ mx: 1 }} onClick={openRAMInfo}>
           {ram}
         </Button>
